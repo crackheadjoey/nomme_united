@@ -10,6 +10,8 @@ body {
 }
 
 .header{
+    min-height: 5vh;
+    width: 100%;
     background-color: #0000009d;
     color: #ffffff;
     position: sticky;
