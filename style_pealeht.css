@@ -87,12 +87,24 @@ nav ul li a:hover{
     margin: auto;
     text-align: center;
 }
-
+.container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container2 nav h1{
-    font-size: 25px;
+    font-size: 28px;
     color:#000000;
     letter-spacing: 1.5px;
     font-weight: 800;
-    margin-bottom: 25px;
     text-align: center;
+}
+.container2 nav i {
+    color: #424040;
+    transition: color 0.2s;
+}
+
+.container2 nav i:hover {
+    color: #100e0e;
 }
