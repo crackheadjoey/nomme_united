@@ -17,52 +17,45 @@
     background-position: center center; 
 }
 
-/* ... (varasemad stiilid) ... */
-
-/* Logo ja navigatsiooni stiilide kohandamine */
 nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem; /* Lisab polsterdust ümber navigatsiooniriba */
+    padding: 1rem 2rem;
     background-color: transparent;
 }
 
 nav h1 a img {
-    height: 70px; /* Säilitab logo kõrguse */
+    height: 70px;
 }
 
 nav ul {
     display: flex;
-    list-style: none; /* Eemaldab loendi markerid */
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
 nav ul li {
-    padding: 0 1rem; /* Lisab vahe menüüpunktide vahele */
-    margin: 0; /* Eemaldab vaikimisi marginaali */
+    padding: 0 1rem;
+    margin: 0;
 }
 
 nav ul li a {
-    color: #fff; /* Seab lingi värvi valgeks */
-    text-transform: uppercase; /* Muudab tähed suurtähtedeks */
-    text-decoration: none; /* Eemaldab allakriipsutuse */
-    font-size: 16px; /* Määrab fondi suuruse */
-    padding: 7px 8px; /* Lisab polsterdust ümber lingi teksti */
-    border-radius: 5px; /* Lisab ümardatud nurgad */
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 7px 8px;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
-    background-color: rgb(122, 20, 4); /* Määrab hover efekti */
-    transition: 0.2s ease; /* Lisab sujuva ülemineku */
+    background-color: rgb(122, 20, 4);
+    transition: 0.2s ease;
 }
 
-/* ... (jätkuvad stiilid) ... */
-
-
-/* Vahelehe sisu jaoks */
 .content {
     max-width: 80%;
     margin: auto;
@@ -71,14 +64,14 @@ nav ul li a:hover {
 .content h2 {
     font-size: 36px;
     text-align: center;
-    color: #ffffff; /* Muutke teksti värv halliks */
+    color: #ffffff;
     margin-bottom: 0.5em;
 }
 
 .content p {
     font-size: 18px;
     text-align: center;
-    color: #c3b8b8; /* Muutke teksti värv halliks */
+    color: #c3b8b8;
     margin-bottom: 2em;
 }
 
@@ -96,7 +89,6 @@ nav ul li a:hover {
     background-color: rgb(122, 20, 4);
 }
 
-/* YouTube'i video stiilid */
 .youtube-video {
     width: 100%;
     display: flex;
@@ -104,23 +96,22 @@ nav ul li a:hover {
 }
 
 .youtube-video iframe {
-    width: 560px; /* Video laius */
-    height: 315px; /* Video kõrgus */
+    width: 560px;
+    height: 315px;
 }
 
-/* Jaluse stiilid */
 footer {
     width: 100%;
     text-align: center;
     color: #fff;
     padding: 1em 0;
     background-color: #333;
-    position: absolute; /* Või 'static', kui jalus peab olema lehe sisu lõpus */
+    position: absolute;
     bottom: 0;
 }
 
 footer p {
-    position: static; /* Või 'absolute', kui jalus peab olema lehe alumises servas */
-    bottom: 20px; /* Või '0', kui jalus on lehe alumises servas */
+    position: static;
+    bottom: 20px;
     width: 100%;
 }
