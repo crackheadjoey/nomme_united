@@ -28,7 +28,6 @@ nav h1{
     float: left;
     line-height: 80px;
     font-size: 35px;
-    font-size: inline;
 }
 nav ul{
     float: right;
@@ -86,6 +85,7 @@ nav ul li a:hover{
     width: 50%;
     margin: auto;
     text-align: center;
+    color: #424040;
 }
 .container2 {
     width: 100%;
@@ -93,16 +93,11 @@ nav ul li a:hover{
     justify-content: center;
     align-items: center;
 }
-.container2 nav h1{
-    font-size: 28px;
-    color:#000000;
-    letter-spacing: 1.5px;
-    font-weight: 800;
-    text-align: center;
-}
 .container2 nav i {
     color: #424040;
     transition: color 0.2s;
+    font-size: 25px;
+    letter-spacing: 3.5px;
 }
 
 .container2 nav i:hover {
