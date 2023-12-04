@@ -2,32 +2,45 @@ body, h1, h2, p, ul, li, a {
     margin: 0;
     padding: 0;
 }
-
+nav{
+    height: 80px; 
+    width:85%;
+    margin: auto;   
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: rgb(122, 20, 4);
+    transition: 0.2s ease;
+}
 body {
-    background-color: #4f4f4f;
+    background-image: -webkit-radial-gradient(ellipse, #ff0000 0%, #000000 120%);
     font-family: Arial, sans-serif;
     color:#fff;
 }
 
-.header{
-    min-height: 5vh;
-    width: 100%;
-    background-color: #0000009d;
-    color: #ffffff;
-    position: sticky;
-    top: 0;
-}
-
-.header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header a {
-    text-decoration: none;
-    color: #b6b6b6
-}
 
 .links ul {
     list-style-type: none;
