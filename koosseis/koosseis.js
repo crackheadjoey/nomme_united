@@ -95,7 +95,7 @@ function main() {
             document.getElementById('playerGoals').innerHTML = "Väravaid: " + players[playerID]['goals'];
 
             const img = document.getElementById('playerimg')
-            img.src = "lisad/players/" + playerID + ".png";
+            img.src = "/lisad/players/" + playerID + ".png";
 
             //juhuks kui pilti ei leidu
             const altSrc = '/lisad/players/placeholder.png';

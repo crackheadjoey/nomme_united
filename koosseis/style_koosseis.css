@@ -17,7 +17,7 @@
 }
 
 .playerCard{
-    background-image: url("lisad/playerbg.png");
+    background-image: url("/lisad/playerbg.png");
     background-repeat: no-repeat;
     position: absolute;
     height: 90%;

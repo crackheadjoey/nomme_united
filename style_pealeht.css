@@ -5,11 +5,14 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-.section1{
-    min-height: 100vh;
+body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)), url("lisad/nomme2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+.section1{
+    min-height: 100vh;
 }
 .container{
     margin: auto;
@@ -51,7 +54,7 @@
     width: 50%;
     margin: auto;
     text-align: center;
-    color: #424040;
+    color: #cecece;
 }
 .container2 {
     width: 100%;
@@ -60,7 +63,7 @@
     align-items: center;
 }
 .container2 nav i {
-    color: #424040;
+    color: #ffffff;
     transition: color 0.2s;
     font-size: 25px;
     letter-spacing: 3.5px;
