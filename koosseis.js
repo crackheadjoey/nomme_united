@@ -1,5 +1,6 @@
 // Autor: Hendrik Aarma
 // kommentaarideks kasutatud veidi ka copilotit autocompleteks
+// kõik koodijupid ise kirjutatud
 
 // Mängijate andmed on salvestatud objektide kujul, kus võtmeteks on mängijate numbrid ja väärtusteks on objektid, mis sisaldavad mängija andmeid.
 players = {
@@ -99,10 +100,10 @@ function main() {
             document.getElementById('playerGoals').innerHTML = "Väravaid: " + players[playerID]['goals'];
             //muuda pilt (element eraldi võetud placeholderi jaoks)
             const img = document.getElementById('playerimg')
-            img.src = "/lisad/players/" + playerID + ".png";
+            img.src = "lisad/players/" + playerID + ".png";
 
             //juhuks kui pilti ei leidu
-            const altSrc = '/lisad/players/placeholder.png';
+            const altSrc = 'lisad/players/placeholder.png';
             img.setAttribute('onerror', `this.onerror=null;this.src='${altSrc}'`);
         }
 
