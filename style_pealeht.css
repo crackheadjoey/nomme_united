@@ -12,43 +12,9 @@
     background-size: cover;
 }
 .container{
-    width:85%;
     margin: auto;
-     
-}
-.container nav h1{
-    margin-top: 15px;
-    margin-left: 20px;
 }
 
-nav{
-    height: 80px;    
-}
-nav h1{
-    float: left;
-    line-height: 80px;
-    font-size: 35px;
-}
-nav ul{
-    float: right;
-    line-height: 80px;
-}
-nav ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 0px 5px;
-}
-nav ul li a{
-    color:#fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 7px 8px;
-}
-nav ul li a:hover{
-    background-color: rgb(122, 20, 4);
-    transition: 0.2s ease;
-}
 .article{
     width: 50%;
     margin: auto;
