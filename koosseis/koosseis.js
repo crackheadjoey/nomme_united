@@ -1,3 +1,7 @@
+// Autor: Hendrik Aarma
+// kommentaarideks kasutatud veidi ka copilotit autocompleteks
+
+// Mängijate andmed on salvestatud objektide kujul, kus võtmeteks on mängijate numbrid ja väärtusteks on objektid, mis sisaldavad mängija andmeid.
 players = {
     '33': {
         'name': 'Jevgeni Demidov',
@@ -68,32 +72,32 @@ players = {
 }
 
 
-
-
-
 function main() {
         //võtan kõik elemendid mille klass on playericon et saaksin neile event handleri lisada
         const playerIcons = document.getElementsByClassName('playerIcon');
 
         function handleClick(event) {
+
             id = event.target.id;
-            console.log(id);
+            // Muuda kaardi sisu
             changeCard(id);
+
             // Eemalda 'selected' klass kõikidelt elementidelt
             for (let i = 0; i < playerIcons.length; i++) {
                 playerIcons[i].classList.remove('selected');
             }
-            // Add the 'selected' class to the clicked element
+            // lisa 'selected' klass klikitud elemendile
             event.target.classList.add('selected');
 
         }
 
         function changeCard(playerID){
+            //muuda teksti
             document.getElementById('playerName').innerHTML = players[playerID]['name'];
             document.getElementById('playerPosition').innerHTML = players[playerID]['position'];
             document.getElementById('playerGames').innerHTML = "Mänge: " + players[playerID]['games'];
             document.getElementById('playerGoals').innerHTML = "Väravaid: " + players[playerID]['goals'];
-
+            //muuda pilt (element eraldi võetud placeholderi jaoks)
             const img = document.getElementById('playerimg')
             img.src = "/lisad/players/" + playerID + ".png";
 
@@ -109,5 +113,5 @@ function main() {
 }
     
 document.addEventListener('DOMContentLoaded', function() {
-   main() // Your code here...
+   main() // alustan functioni kui DOM on laetud, et saaksin elemente muuta
 });
